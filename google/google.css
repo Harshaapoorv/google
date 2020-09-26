@@ -115,8 +115,8 @@ i{
 .search{
 	display: inline-block;
 	width:43%;
-	height:50px;
-	border:1px solid grey;
+	height:43px;
+	border:1px solid #d3d3d3;
 	border-radius:25px;
 	padding: 6px;
 	margin-top: 250px;
@@ -178,7 +178,7 @@ i{
 
  footer{
     margin:0;
-    margin-top:170px;
+    margin-top:190px;
  	clear:both;
  	float:bottom;
  	display:block;
