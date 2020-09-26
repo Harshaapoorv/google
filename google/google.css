@@ -66,82 +66,80 @@ i{
 
 .center {
   display: block;
-  margin-top:10px;
-  margin-left: auto;
+  margin-top:120px;
+  margin-left: 500px;
   margin-right: auto;
-  width: 50%;
-  height:255px;
+  width: 22%;
+  height:90px;
+  position:absolute;
 }
 
+
 .search-icon{
-	width:26px;
-	margin-top: 15px;
-  margin-left: 400px;
+	width:35px;
+	height:48px;
+	margin-top: 250px;
+  margin-left: 305px;
   margin-right: auto;
   position:absolute;
-  border:1px solid black;
+  border:1px solid grey;
   border-right:0px;
+  display:none;
+}
+
+.ion1{
+	width:21px;
+	padding-top:13px;
+	padding-left:2px;
+}
+
+.ion2{
+		width:21px;
+	padding-top:12px;
+	padding-left:1px;
 }
 
 .voice-icon{
-	width:21px;
-	margin-top: 15px;
-  margin-left: 0px;
+	width:35px;
+	height:48px;
+	margin-top: 250px;
+  margin-left: 873px;
   margin-right: auto;
   position:absolute;
-  border:1px solid black;
+  border:1px solid grey;
   border-left:0px;
-  border-radius:0px;
+  border-radius:25px;
+  display:none;
 }
 
 .search{
 	display: inline-block;
-	width:33%;
-	height:28px;
-	border:1px solid black;
-	border-radius: 0px;
+	width:43%;
+	height:50px;
+	border:1px solid grey;
+	border-radius:25px;
 	padding: 6px;
-	margin-top: 15px;
-  	margin-left: 420px;
+	margin-top: 250px;
+  	margin-left: 350px;
   	margin-right: auto;
   	font-size: 17px;
-  	border-right:0px;
-  	border-left:0px;
+  	/*border-right:0px;
+  	border-left:0px;*/
+  	position:absolute;
 }
 
 
 .searchengine:hover{
-	/*background-border:2px solid black;
-	background-border-size:0px 28px;
-	border-size:contain;
-	border:1px solid black;
-	padding:0px;
-	border-radius:50px;*/
 	background-clip:border-box;
 }
 
-/*.searchengine{
-	display:inline-block;
-	margin:auto;
-}*/
-
-/*.searchengine{
-	border:solid #000 2px;
-	padding:0px;
-	margin:0px;
-	border-image:2px;
-	padding-left:0px;
-}*/
-
-/*.searchengine:hover{
-	border:solid #000 2px;
-}*/
 
 .button{
 	 display:block;
   align-items: center;
   text-align:center;
   margin:40px;
+  margin-top:400px;
 }
 
 .googlesearch{
@@ -170,18 +168,21 @@ i{
  	margin:4px;
  }
 
+ .lan:hover{
+ 	text-decoration:underline;
+ }
+
  .lan:visited{
  		color:#0000ee;
  }
 
  footer{
     margin:0;
-    margin-top:145px;
+    margin-top:170px;
  	clear:both;
  	float:bottom;
  	display:block;
  	width:100hw;
- 	/*height:15vh;*/
  	margin-bottom: 0px;
  	background:#f2f2f2;
  	border:10px #696969;
@@ -204,7 +205,7 @@ i{
 
  .india{
  	text-transform:disabled;
- 	margin-top:40px;
+ 	margin-top:10px;
  }
 
 .final{
