@@ -1,0 +1,7 @@
+body,head,header,footer,section,a,nav,
+li,ul,progress,html,details,summary,img,
+p,h1,h2,meta,title,label{
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
